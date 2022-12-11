@@ -1,0 +1,123 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>
+        Registration form
+    </title>
+
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: lightblue;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: rgb(238, 238, 46);   
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #3cf2ff;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+   
+  outline: none;  
+}  
+ div {  
+            padding: 20px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #08e613;  
+  color: rgb(0, 0, 0);  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 35;  
+
+}  
+</style>  
+</head>  
+<body>  
+  
+<form>  
+  <div class="container">  
+  <center>  <h1><u>Registration Form</u></h1> </center>  
+  <hr>  
+  <label> First Name: </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15"  />   
+   
+<label> Last Name: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15" />   
+<div>  
+<label>   
+Select Event :  
+</label>   
+  
+<select>  
+<option value="Course">select</option>  
+<option value="BCA">Hacktahon</option>  
+<option value="BBA">Ethical Hacking</option>  
+<option value="B.Tech">Web Designing</option>  
+<option value="MBA">Project Presentation</option>  
+
+</select>  
+</div> 
+
+
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>
+  DOB:
+</label>
+<input type="date">
+<br><br>
+<label>   
+Phone Number :  
+</label>  
+   
+<input type="text" name="phone" placeholder="Phone no." size="10"/ >   
+Current Address :  
+<textarea cols="40" rows="5" placeholder="Current Address" value="address" >  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="abc@gmail.com" name="email" >  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" >  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" >  
+    <button type="submit" class="registerbtn">Register</button>    
+</form>
+<table align="center">
+  <tr>
+    <td>
+
+      <button><font size="4"><a href="index.html">Home</font></button></a>
+    </td>
+  </tr>
+  
+
+
+</body>  
+</html>
